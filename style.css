@@ -1,63 +1,227 @@
 *{
-    margin: 0;
-    padding: 0; 
-  }
-  
+  margin: 0;
+  padding: 0; 
+  scroll-behavior: smooth;
+}
+
+.hero nav{
+  background-color: rgb(254, 255, 255);
+  height: 40px;
+  padding-top: 20px;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.541);
+}
+
+.hero nav p a{
+  text-decoration: none;
+  padding: 10px 15px;
+  letter-spacing: 3px;
+  color: black;
+  margin-left: 10px;
+}
+
+.hero nav p a:hover{
+  background-color: rgb(179, 172, 172);
+}
+
+.hero nav ul{
+  margin-left: 80%;
+  list-style-type: none;
+  margin-top: -18px ;
+  letter-spacing: 3px;
+}
+
+.hero nav ul li{
+  display: inline-block;
+}
+
+.hero nav ul li a{
+  padding: 8px 12px;
+  text-decoration: none;
+  color: black;
+}
+
+.hero nav ul li a:hover{
+  background-color: rgb(179, 172, 172);
+}
+
+.hero .banner img{
+  width: 100%;
+}
+
+.hero .banner p{
+  position: absolute;
+  left: 30px;
+  top: 600px;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.534);
+  letter-spacing: 5px;
+}
+
+.hero .about{
+  padding: 100px 130px 180px;
+}
+
+.hero .about .left{
+  float: left;
+  margin-right: 50px;
+}
+
+.hero .about .left img{
+  border-radius: 5px;
+}
+
+.hero .about .right .title{
+  padding-top: 20px;
+  font-size: 45px;
+  text-align: center;
+}
+
+.hero .about .right .mid{
+  font-size: 20px;
+  text-align: center;
+  padding: 50px 0 30px 0;
+  letter-spacing: 3px;
+}
+
+.hero .about .right .top{
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.hero .about .right .season{
+  padding: 3px 7px;
+  background-color: rgba(223, 223, 223, 0.582);
+}
+
+.hero .about .right .down{
+  font-size: 17px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.527);
+  padding-top: 20px;
+}
+
+.hero .line{
+  width: 75%;
+  height: 0.2px;
+  background-color: rgba(51, 50, 50, 0.219);
+  margin: 70px 130px;
+}
+
+.hero .menu{
+  padding: 0px 130px 100px;
+}
+
+.hero .menu .left{
+float: left;
+margin-right: 100px;
+}
+
+.hero .menu .left .title{
+  padding: 0 0 40px 0;
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.hero .menu .left .top {
+  font-size: 21px;
+  letter-spacing: 5px;
+  padding-bottom: 20px;
+}
+
+.hero .menu .left .bottom {
+  padding-bottom: 40px;
+  color: rgba(0, 0, 0, 0.562);
+}
+
+.hero .menu .right img{
+  border-radius: 5px;
+}
+
+.hero .contact{
+  padding: 0px 130px 100px;
+}
+
+.hero .contact .title{
+  padding: 0 0 40px 0;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.hero .contact .add{
+  padding: 20px 0;
+  font-size: 20px;
+  color: rgba(64, 72, 122, 0.822);
+}
+
+.hero .contact p{
+  font-size: 15px;
+}
+
+.hero form{
+  padding: 30px 0;
+}
+
+.hero form input {
+  width: 100%;
+  height: 45px;
+  font-size: 15px;
+  text-indent: 5px;
+  border-width: 0 0 1px 0;
+}
+
+.hero form input:focus{
+  border-width: 1px;
+}
+
+.hero form button {
+  padding: 10px 15px;
+  background-color: #f1f1f1;
+  margin-top: 30px;
+  border: none;
+}
+
+.hero form button:hover {
+  background-color: gray;
+}
+
+.hero footer {
+  padding: 60px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.hero footer p a {
+  color: black;
+} 
+
+.hero footer p a:hover {
+  color: green;
+}
+
+
+@media screen and (max-width: 768px){
   .hero nav{
     background-color: rgb(254, 255, 255);
-    height: 40px;
-    padding-top: 20px;
-    position: fixed;
-    width: 100%;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.541);
+    height: 35px;
+    padding-top: 17.5px;
   }
-  
-  .hero nav p a{
-    text-decoration: none;
-    padding: 10px 15px;
-    letter-spacing: 3px;
-    color: black;
-    margin-left: 10px;
-  }
-  
-  .hero nav p a:hover{
-    background-color: rgb(179, 172, 172);
-  }
-  
+
   .hero nav ul{
-    margin-left: 80%;
-    list-style-type: none;
-    margin-top: -18px ;
+    margin-left: 63%;
   }
-  
-  .hero nav ul li{
-    display: inline-block;
-  }
-  
-  .hero nav ul li a{
-    padding: 8px 12px;
-    text-decoration: none;
-    color: black;
-  }
-  
-  .hero nav ul li a:hover{
-    background-color: rgb(179, 172, 172);
-  }
-  
-  .hero .banner img{
-    width: 100%;
-  }
-  
+
   .hero .banner p{
-    position: absolute;
-    left: 30px;
-    top: 600px;
-    font-size: 40px;
-    color: rgba(0, 0, 0, 0.534);
+    left: 27px;
+    top: 315px;
+    font-size: 35px;
+    letter-spacing: 5px;
   }
-  
+
   .hero .about{
-    padding: 100px 130px;
+    padding: 70px 30px 30px;
   }
   
   .hero .about .left{
@@ -66,78 +230,142 @@
   }
   
   .hero .about .left img{
-    border-radius: 5px;
+    width: 330px;
+    height: 415px;
   }
   
   .hero .about .right .title{
-    padding-top: 20px;
-    font-size: 45px;
+    padding-top: 18px;
+    font-size: 35px;
     text-align: center;
+    letter-spacing: 5px;
   }
   
   .hero .about .right .mid{
     font-size: 20px;
     text-align: center;
-    padding: 50px 0 30px 0;
-    letter-spacing: 3px;
+    padding: 45px 0 30px 0;
+    letter-spacing: 5px;
   }
   
   .hero .about .right .top{
-    font-size: 17px;
-    line-height: 1.5;
-  }
-  
-  .hero .about .right .season{
-    padding: 5px;
-    background-color: rgba(179, 172, 172, 0.582);
+    padding-right: 10px;
   }
   
   .hero .about .right .down{
-    font-size: 17px;
-    line-height: 1.5;
-    color: rgba(0, 0, 0, 0.527);
-    padding-top: 20px;
+    font-size: 0;
   }
-  
+
   .hero .line{
-    width: 75%;
-    height: 0.2px;
-    background-color: rgba(0, 0, 0, 0.219);
-    margin: 70px 130px;
+    width: 100%;
+    margin: 70px 0px;
   }
-  
+
   .hero .menu{
-    padding: 0px 130px 100px;
-  }
-  
-  .hero .menu .left{
-  float: left;
-  margin-right: 100px;
+    padding: 40px 0 15px 25px;
   }
   
   .hero .menu .left .title{
-    padding: 0 0 40px 0;
-    font-size: 45px;
+    padding: 0 0 40px 50%;
+    font-size: 35px;
     text-align: center;
   }
   
   .hero .menu .left .top {
-    font-size: 21px;
+    font-size: 20px;
     letter-spacing: 5px;
-    padding-bottom: 20px;
   }
   
   .hero .menu .left .bottom {
-    padding-bottom: 40px;
-    color: rgba(0, 0, 0, 0.753);
+    font-size: 15px;
   }
   
   .hero .menu .right img{
     border-radius: 5px;
+    width: 720px;
+    height: auto;
+  }
+
+  .hero .contact{
+    padding: 0px 20px 65px;
   }
   
+  .hero .contact .title{
+    padding: 0 0 60px 0;
+    font-size: 35px;
+  }
+  
+  .hero .contact .add{
+    padding: 20px 0;
+    font-size: 20px;
+  }
+  
+  .hero footer {
+    padding: 50px;
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  
+  .hero footer p a {
+    color: black;
+  } 
+  
+  .hero footer p a:hover {
+    color: green;
+  }
+}
+
+
+
+@media screen and (max-width:430px) {
+  .hero nav{
+    height: 30px;
+    padding-top: 10px;
+    position: fixed;
+    width: 430px;
+  }
+
+  .hero nav ul{
+    display: none;
+  }
+
+  .hero nav .mobile{
+    display: block;
+  }
+
+  .hero .banner img{
+    width: 430px;
+  }
+  
+  .hero .banner p{
+    left: 30px;
+    top: 180px;
+    font-size: 15px;
+  }
+
+  .hero .about{
+    padding: 50px 30px;
+  }
+  
+  .hero .about .left{
+    display: none;
+  }
+
+  .hero .line{
+    width: 88%;
+    margin: 0px 30px;
+  }
+  
+  .hero .menu{
+    padding: 50px 30px 100px;
+  }
+  
+  .hero .menu .right img{
+    width: 370px;
+  }
+
   .hero .contact{
-    padding: 0px 130px 100px;
+    padding: 50px 30px 100px;
   }
   
   .hero .contact .title{
@@ -150,44 +378,15 @@
     font-size: 20px;
     color: rgb(54, 54, 121);
   }
-  
-  .hero form{
-    padding: 30px 0;
-  }
-  
-  .hero form input {
-    width: 100%;
-    height: 45px;
-    font-size: 15px;
-    text-indent: 5px;
-    border-width: 0 0 1px 0;
-  }
-  
-  .hero form input:focus{
-    border-width: 1px;
-  }
-  
-  .hero form button {
-    padding: 10px 15px;
-    background-color: #f1f1f1;
-    margin-top: 30px;
-    border: none;
-  }
-  
-  .hero form button:hover {
-    background-color: gray;
-  }
-  
+
   .hero footer {
-    padding: 60px;
+    padding: 50px;
     background-color: #f1f1f1;
     text-align: center;
   }
   
-  .hero footer p a {
-    color: black;
-  } 
+}
+
+@media screen and (max-width: 30px){
   
-  .hero footer p a:hover {
-    color: green;
-  }
+}
