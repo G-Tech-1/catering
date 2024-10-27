@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0; 
+  }
+  
+  .hero nav{
+    background-color: rgb(254, 255, 255);
+    height: 40px;
+    padding-top: 20px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.541);
+  }
+  
+  .hero nav p a{
+    text-decoration: none;
+    padding: 10px 15px;
+    letter-spacing: 3px;
+    color: black;
+    margin-left: 10px;
+  }
+  
+  .hero nav p a:hover{
+    background-color: rgb(179, 172, 172);
+  }
+  
+  .hero nav ul{
+    margin-left: 80%;
+    list-style-type: none;
+    margin-top: -18px ;
+  }
+  
+  .hero nav ul li{
+    display: inline-block;
+  }
+  
+  .hero nav ul li a{
+    padding: 8px 12px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .hero nav ul li a:hover{
+    background-color: rgb(179, 172, 172);
+  }
+  
+  .hero .banner img{
+    width: 100%;
+  }
+  
+  .hero .banner p{
+    position: absolute;
+    left: 30px;
+    top: 600px;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.534);
+  }
+  
+  .hero .about{
+    padding: 100px 130px;
+  }
+  
+  .hero .about .left{
+    float: left;
+    margin-right: 50px;
+  }
+  
+  .hero .about .left img{
+    border-radius: 5px;
+  }
+  
+  .hero .about .right .title{
+    padding-top: 20px;
+    font-size: 45px;
+    text-align: center;
+  }
+  
+  .hero .about .right .mid{
+    font-size: 20px;
+    text-align: center;
+    padding: 50px 0 30px 0;
+    letter-spacing: 3px;
+  }
+  
+  .hero .about .right .top{
+    font-size: 17px;
+    line-height: 1.5;
+  }
+  
+  .hero .about .right .season{
+    padding: 5px;
+    background-color: rgba(179, 172, 172, 0.582);
+  }
+  
+  .hero .about .right .down{
+    font-size: 17px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.527);
+    padding-top: 20px;
+  }
+  
+  .hero .line{
+    width: 75%;
+    height: 0.2px;
+    background-color: rgba(0, 0, 0, 0.219);
+    margin: 70px 130px;
+  }
+  
+  .hero .menu{
+    padding: 0px 130px 100px;
+  }
+  
+  .hero .menu .left{
+  float: left;
+  margin-right: 100px;
+  }
+  
+  .hero .menu .left .title{
+    padding: 0 0 40px 0;
+    font-size: 45px;
+    text-align: center;
+  }
+  
+  .hero .menu .left .top {
+    font-size: 21px;
+    letter-spacing: 5px;
+    padding-bottom: 20px;
+  }
+  
+  .hero .menu .left .bottom {
+    padding-bottom: 40px;
+    color: rgba(0, 0, 0, 0.753);
+  }
+  
+  .hero .menu .right img{
+    border-radius: 5px;
+  }
+  
+  .hero .contact{
+    padding: 0px 130px 100px;
+  }
+  
+  .hero .contact .title{
+    padding: 0 0 40px 0;
+    font-size: 45px;
+  }
+  
+  .hero .contact .add{
+    padding: 20px 0;
+    font-size: 20px;
+    color: rgb(54, 54, 121);
+  }
+  
+  .hero form{
+    padding: 30px 0;
+  }
+  
+  .hero form input {
+    width: 100%;
+    height: 45px;
+    font-size: 15px;
+    text-indent: 5px;
+    border-width: 0 0 1px 0;
+  }
+  
+  .hero form input:focus{
+    border-width: 1px;
+  }
+  
+  .hero form button {
+    padding: 10px 15px;
+    background-color: #f1f1f1;
+    margin-top: 30px;
+    border: none;
+  }
+  
+  .hero form button:hover {
+    background-color: gray;
+  }
+  
+  .hero footer {
+    padding: 60px;
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  
+  .hero footer p a {
+    color: black;
+  } 
+  
+  .hero footer p a:hover {
+    color: green;
+  }
